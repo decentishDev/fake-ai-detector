@@ -1,1 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>AI Detector</title>
+</head>
+<body>
+  <header>
+    <h1>AI Detector</h1>
+    <h3>Use advanced neural networks to check any text and see the probability that AI has written it.</h3>
+  </header>
 
+  <div id="content">
+    <textarea id="largeTextField" rows="8" placeholder="Copy & paste your text here."></textarea>
+    <br>
+    <button id="generateButton" onclick="generateRandomNumber()">Check for AI writing</button>
+    <div id="loading" class="hidden">Loading...</div>
+    <br>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
